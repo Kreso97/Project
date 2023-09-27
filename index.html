@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projektni zadatak</title>
+    <link rel="stylesheet" href="style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>NBA API</h1>
+      <h4>
+        <a
+          href="https://rapidapi.com/theapiguy/api/free-nba/"
+          target="blank"
+          class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          >Rapid API
+        </a>
+      </h4>
+      <h4 class="students">Project made by: Krešimir Džidić & Ante Šarac</h4>
+      <div class="d-flex justify-content-around">
+        <button id="back-to-top" type="button" class="btn btn-danger btn-lg">
+          Make new API call
+        </button>
+        <button type="button" class="btn btn-dark btn-lg" id="generate-teams">
+          Generate All Teams
+        </button>
+        <button id="generate-players" class="btn btn-dark btn-lg">
+          Search for a player
+        </button>
+      </div>
+      <div id="teams"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
